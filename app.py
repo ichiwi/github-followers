@@ -36,7 +36,7 @@ def main():
     if accounts_not_following_back == set():
         print("\nYou are following everyone who is following you.")
     else:
-        print("\nUseranmes of those you're following, but they're not following you back:")
+        print("\nUsernames of those you're following, but they're not following you back:")
         print(accounts_not_following_back)
 
     if accounts_not_followed_back == set():
